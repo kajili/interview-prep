@@ -1,4 +1,4 @@
-# LeetCode 70. Climbing Stairs (Easy)
+# LeetCode 70. Climbing Stairs [Easy]
 
 # You are climbing a staircase. It takes n steps to reach the top.
 
