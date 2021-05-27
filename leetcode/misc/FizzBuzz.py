@@ -27,12 +27,13 @@ class Solution:
 
         return answer
 
+
 def main():
     solution = Solution()
     tests = []
-    tests.append(solution.fizzBuzz(n = 3))
-    tests.append(solution.fizzBuzz(n = 5))
-    tests.append(solution.fizzBuzz(n = 15))
+    tests.append(solution.fizzBuzz(n=3))
+    tests.append(solution.fizzBuzz(n=5))
+    tests.append(solution.fizzBuzz(n=15))
     for test in tests:
         print(test)
 
