@@ -44,6 +44,9 @@ def main():
 if __name__ == '__main__':
     main()
 
+# Output:
+# [True, True, False, False, True]
+
 # Example 1:
 
 # Input: s = "()"
