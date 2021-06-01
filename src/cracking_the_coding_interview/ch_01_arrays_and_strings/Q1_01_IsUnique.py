@@ -3,8 +3,8 @@
 #  Implement an algorithm to determine if a string has all unique characters.
 #  What if you cannot use additional data structures?
 
-
-
+def isUnique(s):
+    pass
 
 
 # If we can't use additional data structures, we can do the following:
