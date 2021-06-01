@@ -8,7 +8,7 @@ tests_for_twoSum = [([2, 7, 11, 15], 9, [0, 1]),
 
 
 @pytest.mark.parametrize("nums,target,expected", tests_for_twoSum)
-def test_checkPermutationSingleHashTable(nums, target, expected):
+def test_twoSum(nums, target, expected):
     sol = Solution()
     function_result = sol.twoSum(nums, target)
     assert function_result == expected
