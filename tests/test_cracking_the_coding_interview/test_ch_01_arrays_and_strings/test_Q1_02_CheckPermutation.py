@@ -3,8 +3,13 @@ import pytest
 from src.cracking_the_coding_interview.ch_01_arrays_and_strings.Q1_02_CheckPermutation import \
     checkPermutationSingleHashTable, checkPermutationDoubleHashTable
 
-tests_for_checkPermutation = [("anagram", "nagaram", True),
-                              ("rat", "car", False)]
+tests_for_checkPermutation = [("anagram",   # str1
+                               "nagaram",   # str2
+                               True),       # expected
+
+                              ("rat",
+                               "car",
+                               False)]
 
 
 @pytest.mark.parametrize("str1,str2,expected", tests_for_checkPermutation)

@@ -2,10 +2,10 @@ import pytest
 
 from src.leetcode.breadth_first_search.WordLadder import Solution
 
-tests_for_ladderLength = [("hit",
-                           "cog",
-                           ["hot", "dot", "dog", "lot", "log", "cog"],
-                           5),
+tests_for_ladderLength = [("hit",                                       # beginWord
+                           "cog",                                       # endWord
+                           ["hot", "dot", "dog", "lot", "log", "cog"],  # wordList
+                           5),                                          # expected
 
                           ("hit",
                            "cog",
