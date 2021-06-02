@@ -1,0 +1,45 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.8.2, pytest-6.2.4, py-1.10.0, pluggy-0.13.1 -- /Users/kevinajili/PycharmProjects/interview-prep/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/kevinajili/PycharmProjects/interview-prep
+collecting ... collected 37 items
+
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_SetLengthComparison[abcd-True] PASSED [  2%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_SetLengthComparison[s4fad-True] PASSED [  5%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_SetLengthComparison[23ds2-False] PASSED [  8%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_SetLengthComparison[hb 627jh=j ()-False] PASSED [ 10%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_SetLengthComparison[hb 627j= ()-False] PASSED [ 13%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_SetComparingEachLetter[abcd-True] PASSED [ 16%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_SetComparingEachLetter[s4fad-True] PASSED [ 18%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_SetComparingEachLetter[23ds2-False] PASSED [ 21%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_SetComparingEachLetter[hb 627jh=j ()-False] PASSED [ 24%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_SetComparingEachLetter[hb 627j= ()-False] PASSED [ 27%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_HashTableComparingEachLetter[abcd-True] PASSED [ 29%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_HashTableComparingEachLetter[s4fad-True] PASSED [ 32%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_HashTableComparingEachLetter[23ds2-False] PASSED [ 35%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_HashTableComparingEachLetter[hb 627jh=j ()-False] PASSED [ 37%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_HashTableComparingEachLetter[hb 627j= ()-False] PASSED [ 40%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_ConstantSpace[abcd-True] PASSED [ 43%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_ConstantSpace[s4fad-True] PASSED [ 45%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_ConstantSpace[23ds2-False] PASSED [ 48%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_ConstantSpace[hb 627jh=j ()-False] PASSED [ 51%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_01_IsUnique.py::test_isUnique_ConstantSpace[hb 627j= ()-False] PASSED [ 54%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_02_CheckPermutation.py::test_checkPermutationSingleHashTable[anagram-nagaram-True] PASSED [ 56%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_02_CheckPermutation.py::test_checkPermutationSingleHashTable[rat-car-False] PASSED [ 59%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_02_CheckPermutation.py::test_checkPermutationSingleHashTable[test-ests-False] PASSED [ 62%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_02_CheckPermutation.py::test_checkPermutationSingleHashTable[testing-test-False] PASSED [ 64%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_02_CheckPermutation.py::test_checkPermutationDoubleHashTable[anagram-nagaram-True] PASSED [ 67%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_02_CheckPermutation.py::test_checkPermutationDoubleHashTable[rat-car-False] PASSED [ 70%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_02_CheckPermutation.py::test_checkPermutationDoubleHashTable[test-ests-False] PASSED [ 72%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_02_CheckPermutation.py::test_checkPermutationDoubleHashTable[testing-test-False] PASSED [ 75%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_03_URLify.py::test_URLify_NewString[Mr John Smith      -13-Mr%20John%20Smith] PASSED [ 78%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_03_URLify.py::test_URLify_NewString[Does this work yet?       -19-Does%20this%20work%20yet?] PASSED [ 81%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_03_URLify.py::test_URLify_InPlace[Mr John Smith      -13-Mr%20John%20Smith] PASSED [ 83%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_03_URLify.py::test_URLify_InPlace[Does this work yet?       -19-Does%20this%20work%20yet?] PASSED [ 86%]
+tests/test_leetcode/test_breadth_first_search/test_WordLadder.py::test_ladderLength[hit-cog-wordList0-5] PASSED [ 89%]
+tests/test_leetcode/test_breadth_first_search/test_WordLadder.py::test_ladderLength[hit-cog-wordList1-0] PASSED [ 91%]
+tests/test_leetcode/test_hash_table/test_TwoSum.py::test_twoSum[nums0-9-expected0] PASSED [ 94%]
+tests/test_leetcode/test_hash_table/test_TwoSum.py::test_twoSum[nums1-6-expected1] PASSED [ 97%]
+tests/test_leetcode/test_hash_table/test_TwoSum.py::test_twoSum[nums2-6-expected2] PASSED [100%]
+
+============================== 37 passed in 0.04s ==============================
