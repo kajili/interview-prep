@@ -48,17 +48,16 @@ def isUnique_HashTableComparingEachLetter(s):
 
 def isUnique_ConstantSpace(s):
     # Sort the string
-    sortedStr = sorted(s)
-    sortedStr = "".join(sortedStr)
+    sortedStr = "".join(sorted(s))
 
     # Find length of string
     n = len(s)
-    print(sortedStr)
+
     # Check if neighboring characters are identical
     for i in range(1, n):
         current = sortedStr[i]
         previous = sortedStr[i - 1]
-        print(current,previous)
+
         if (current == previous):
             # if there are any values that are equal they will be next to each other after sorting
             return False

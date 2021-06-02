@@ -22,6 +22,8 @@ def URLify_NewString(inputString, trueLength):
 
 def URLify_InPlace(inputString, trueLength):
     # Convert string to list to modify indices, convert back to string before returning at the end.
+    # In python this requires converting the string to a new list which still took O(n) space, so I prefer using the
+    # above method which creates a new string since they both use extra space but that one is much cleaner.
     url = list(inputString)
 
     # Count the number of spaces

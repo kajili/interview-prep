@@ -42,4 +42,4 @@ tests/test_leetcode/test_hash_table/test_TwoSum.py::test_twoSum[nums0-9-expected
 tests/test_leetcode/test_hash_table/test_TwoSum.py::test_twoSum[nums1-6-expected1] PASSED [ 97%]
 tests/test_leetcode/test_hash_table/test_TwoSum.py::test_twoSum[nums2-6-expected2] PASSED [100%]
 
-============================== 37 passed in 0.04s ==============================
+============================== 37 passed in 0.03s ==============================
