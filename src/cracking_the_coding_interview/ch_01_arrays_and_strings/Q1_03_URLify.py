@@ -5,6 +5,10 @@
 # characters,and that you are given the "true" length of the string.
 # (Note: If implementing in Java,please use a character array so that you can perform this operation in place.)
 
+# EXAMPLE
+# Input: "Mr John Smith     ", 13
+# Output: "Mr%20John%20Smith"
+
 def URLify_NewString(inputString, trueLength):
     # Create new string for string concatenation
     url = ""
@@ -60,7 +64,3 @@ def URLify_InPlace(inputString, trueLength):
 
 if __name__ == '__main__':
     print(URLify_InPlace('test string       ', 11))
-
-# EXAMPLE
-# Input: "Mr John Smith     ", 13
-# Output: "Mr%20John%20Smith"
