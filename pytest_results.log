@@ -41,9 +41,9 @@ tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_0
 tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_04_PalindromePermutation.py::test_palindromePermutation[deed-True] PASSED [ 76%]
 tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_04_PalindromePermutation.py::test_palindromePermutation[jakshdkhf-False] PASSED [ 78%]
 tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_04_PalindromePermutation.py::test_palindromePermutation[not a palindrome-False] PASSED [ 80%]
-tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_05_OneAway.py::test_oneAway[pale-ple-True] FAILED [ 82%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_05_OneAway.py::test_oneAway[pale-ple-True] PASSED [ 82%]
 tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_05_OneAway.py::test_oneAway[pales-pale-True] PASSED [ 84%]
-tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_05_OneAway.py::test_oneAway[pale-bale-True] FAILED [ 86%]
+tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_05_OneAway.py::test_oneAway[pale-bale-True] PASSED [ 86%]
 tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_05_OneAway.py::test_oneAway[pale-bake-False] PASSED [ 89%]
 tests/test_leetcode/test_breadth_first_search/test_WordLadder.py::test_ladderLength[hit-cog-wordList0-5] PASSED [ 91%]
 tests/test_leetcode/test_breadth_first_search/test_WordLadder.py::test_ladderLength[hit-cog-wordList1-0] PASSED [ 93%]
@@ -51,34 +51,4 @@ tests/test_leetcode/test_hash_table/test_TwoSum.py::test_twoSum[nums0-9-expected
 tests/test_leetcode/test_hash_table/test_TwoSum.py::test_twoSum[nums1-6-expected1] PASSED [ 97%]
 tests/test_leetcode/test_hash_table/test_TwoSum.py::test_twoSum[nums2-6-expected2] PASSED [100%]
 
-=================================== FAILURES ===================================
-_________________________ test_oneAway[pale-ple-True] __________________________
-
-str1 = 'pale', str2 = 'ple', expected = True
-
-    @pytest.mark.parametrize("str1,str2,expected", tests_for_oneAway)
-    def test_oneAway(str1, str2, expected):
-        function_result = oneAway(str1, str2)
->       assert function_result == expected
-E       assert False == True
-E         +False
-E         -True
-
-tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_05_OneAway.py:25: AssertionError
-_________________________ test_oneAway[pale-bale-True] _________________________
-
-str1 = 'pale', str2 = 'bale', expected = True
-
-    @pytest.mark.parametrize("str1,str2,expected", tests_for_oneAway)
-    def test_oneAway(str1, str2, expected):
-        function_result = oneAway(str1, str2)
->       assert function_result == expected
-E       assert False == True
-E         +False
-E         -True
-
-tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_05_OneAway.py:25: AssertionError
-=========================== short test summary info ============================
-FAILED tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_05_OneAway.py::test_oneAway[pale-ple-True]
-FAILED tests/test_cracking_the_coding_interview/test_ch_01_arrays_and_strings/test_Q1_05_OneAway.py::test_oneAway[pale-bale-True]
-========================= 2 failed, 44 passed in 0.06s =========================
+============================== 46 passed in 0.04s ==============================
