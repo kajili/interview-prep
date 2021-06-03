@@ -36,7 +36,7 @@ def oneAway(str1, str2):
             if countDiff > 1:
                 return False
 
-            if len(shorter) == len(longer):
+            if len(shorter) != len(longer):
                 # If the strings are not the same length then increment the longer one
                 indexLonger += 1
             else:
