@@ -30,8 +30,9 @@ def oneAway(str1, str2):
     while (indexShorter < len(shorter) and indexLonger < len(longer)):
 
         if shorter[indexShorter] != longer[indexLonger]:
-            # Return false if we found more than one difference
+            # Increase the number of differences found
             countDiff += 1
+            # Return false if we found more than one difference
             if countDiff > 1:
                 return False
 
