@@ -9,7 +9,10 @@ tests_for_stringCompression = [("aabcccccaaa",  # inputString
                                 "abcd"),
 
                                ("bbbddeeeeffffgggghhhhhiizkxxx",
-                                "b3d2e4f4g4h5i2z1k1x3")]
+                                "b3d2e4f4g4h5i2z1k1x3"),
+
+                               ("aabcccccaabba",
+                                "a2b1c5a2b2a1")]
 
 
 @pytest.mark.parametrize("inputString,expected", tests_for_stringCompression)
