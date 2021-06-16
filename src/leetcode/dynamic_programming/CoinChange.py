@@ -1,8 +1,10 @@
-# LeetCode 322. Coin Change
+# LeetCode 322. Coin Change [Medium]
 
-# You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
+# You are given an integer array coins representing coins of different denominations and an integer amount
+# representing a total amount of money.
 
-# Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
+# Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up
+# by any combination of the coins, return -1.
 
 # You may assume that you have an infinite number of each kind of coin.
 
@@ -43,12 +45,11 @@ class Solution:
         # so we can use Dynamic Programming to store values along the way to reduce run time.
 
         # Algorithm:
-        # So we can go through every amount starting at 1, knowing the value of the num of coins for amount
-        # 0. Then we can also go through each type of available coin in our coins list.
-        # Next we can check if our current amount minus our current coin is greater than 0. Otherwise the coin would take us
-        # past our amount.
-        # If so, then we can check if the number of coins it takes to reach our current amount using that coin is less
-        # then the previously calculated number of coins for that given amount in our DP array.
+        # So we can go through every amount starting at 1, knowing the value of the num of coins for
+        # amount 0. Then we can also go through each type of available coin in our coins list. Next we can check if
+        # our current amount minus our current coin is greater than 0. Otherwise the coin would take us past our
+        # amount. If so, then we can check if the number of coins it takes to reach our current amount using that
+        # coin is less then the previously calculated number of coins for that given amount in our DP array.
         #
         # This can be done by checking what the minimum value between the current amount in our DP array
         # (which represents the previously calculated minimum number of coins for that amount),
